@@ -1,0 +1,24 @@
+1) Диаграмма боюнча бардык Entity класстарды тузуп, полелерин жазуу.
+
+2) Тузулгон Entity класстардын байланыштарын(relationship) ,
+ Cascade Type тарын,  Fetch Type тарын туура коюп жазуу.
+
+3) Course:
+ 3.1)  Курс кошуу учун SaveCourse() деген метод тузуп,
+  кошулганы тууралуу message кайтаруу керек.
+
+ 3.2)  Курста getCourseById(), getAllCourse()(датасы боюнча сорттоп чыгаруу), updateCourse(),
+ deleteCourseById() (курсту очургондо, курска assign болгон инструктор очпошу керек, курстун ичиндеги сабактар очуш керек),
+ getCourseByName() методдорун тузуп, ишке ашыруу.
+
+4) Instructor:
+4.1) Инструктордо saveInstructor(), updateInstructor(),
+getInstructorById(), getInstructorByCourseId()(тиешелуу курстун инструкторлорун чыгарып беруу),
+deleteInstructorById()(инструктор очкондо, инструкторго тиешелуу курс очпошу керек),
+assignInstructorToCourse()(инструкторду курска кошуп коюу(назначить)).
+
+5) Lesson:
+5.1) Lesson да saveLesson()(Lesson сакталып жатканда кандайдыр бир курска сакталуусу керек), updateLesson(), getLessonById(), getLessonsByCourseId()(курска тиешелуу сабактарды чыгаруу);
+6) Task:
+6.1) saveTask(), updateTask(), getAllTaskByLessonId(), deleteTaskById();
+7) Бардык маанилер консольго так жана ирети менен чыгуусу керек .
